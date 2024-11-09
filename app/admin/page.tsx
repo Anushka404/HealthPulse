@@ -55,7 +55,7 @@ const AdminPage = async () => {
             icon={"/assets/icons/cancelled.svg"}
           />
         </section>
-        <DataTable columns={[]} data={appointments.documents}/>
+        <DataTable columns={columns} data={appointments.documents}/>
         
       </main>
     </div>
