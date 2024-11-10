@@ -7,12 +7,7 @@ import { StatusBadge } from "../StatusBadge"
 import { formatDateTime } from "@/lib/utils"
 import Image from "next/image"
 import { AppointmentModal } from "../AppointmentModal";
-export type Payment = {
-  id: string
-  amount: number
-  status: "pending" | "processing" | "success" | "failed"
-  email: string
-}
+
 
 export const columns: ColumnDef<Appointment>[] = [
 
