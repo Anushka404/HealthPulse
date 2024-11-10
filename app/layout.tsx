@@ -14,7 +14,7 @@ const fontSans = Plus_Jakarta_Sans({
 
 
 export const metadata: Metadata = {
-  title: "Care-IT",
+  title: "Health_CarePulse",
   description: "All in one health care platform",
 };
 
